@@ -39,6 +39,9 @@ class Event extends \Joindin\Model\API\JoindIn
     }
 
 
+
+
+
    /*
     * Get a single event, by slug
     *
@@ -67,6 +70,5 @@ class Event extends \Joindin\Model\API\JoindIn
         $event->slug = $slug;
 
         return $event;
-
     }
 }
